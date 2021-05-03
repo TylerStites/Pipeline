@@ -1,0 +1,151 @@
+{
+  "paragraphs": [
+    {
+      "text": "%spark\nspark.sparkContext.getConf.getAll.foreach(println)",
+      "user": "anonymous",
+      "dateUpdated": "2021-01-26 14:19:14.571",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "(zeppelin.spark.concurrentSQL,false)\n(spark.driver.extraJavaOptions, -Dfile.encoding\u003dUTF-8 -Dlog4j.configuration\u003dfile:///zeppelin/conf/log4j.properties -Dzeppelin.log.file\u003d/logs//zeppelin-interpreter-spark--zeppelin.log)\n(zeppelin.pyspark.useIPython,true)\n(spark.repl.class.uri,spark://zeppelin:40569/classes)\n(zeppelin.spark.maxResult,10000)\n(spark.redis.host,redis5)\n(spark.redis.port,6379)\n(zeppelin.R.cmd,R)\n(zeppelin.dep.localrepo,local-repo)\n(zeppelin.spark.importImplicit,true)\n(zeppelin.spark.useNew,true)\n(spark.cores.max,4)\n(spark.repl.class.outputDir,/tmp/spark347481049567855412)\n(spark.driver.extraClassPath,:/zeppelin/interpreter/spark/*:/zeppelin/lib/interpreter/*::/zeppelin/interpreter/spark/spark-interpreter-0.8.2.jar)\n(spark.jars,file:///root/.ivy2/jars/org.elasticsearch_elasticsearch-hadoop-7.3.2.jar,file:///root/.ivy2/jars/com.redislabs_spark-redis-2.4.1.jar,file:///root/.ivy2/jars/com.databricks_spark-xml_2.11-0.11.0.jar,file:///root/.ivy2/jars/org.apache.commons_commons-pool2-2.0.jar,file:///root/.ivy2/jars/redis.clients_jedis-3.2.0.jar,file:///root/.ivy2/jars/org.scala-lang_scalap-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang_scala-compiler-2.11.12.jar,file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.25.jar,file:///root/.ivy2/jars/org.scala-lang_scala-reflect-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-xml_2.11-1.0.5.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.0.4.jar,file:///root/.ivy2/jars/commons-io_commons-io-2.8.0.jar,file:///root/.ivy2/jars/org.glassfish.jaxb_txw2-2.3.3.jar,file:///root/.ivy2/jars/org.apache.ws.xmlschema_xmlschema-core-2.2.5.jar,file:/zeppelin/interpreter/spark/spark-interpreter-0.8.2.jar)\n(spark.yarn.dist.archives,file:/spark/R/lib/sparkr.zip#sparkr)\n(spark.useHiveContext,true)\n(spark.master,local[*])\n(spark.executor.memory,8g)\n(spark.submit.deployMode,client)\n(zeppelin.R.knitr,true)\n(spark.driver.port,40569)\n(zeppelin.spark.useHiveContext,true)\n(spark.repl.local.jars,file:///root/.ivy2/jars/org.elasticsearch_elasticsearch-hadoop-7.3.2.jar,file:///root/.ivy2/jars/com.redislabs_spark-redis-2.4.1.jar,file:///root/.ivy2/jars/com.databricks_spark-xml_2.11-0.11.0.jar,file:///root/.ivy2/jars/org.apache.commons_commons-pool2-2.0.jar,file:///root/.ivy2/jars/redis.clients_jedis-3.2.0.jar,file:///root/.ivy2/jars/org.scala-lang_scalap-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang_scala-compiler-2.11.12.jar,file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.25.jar,file:///root/.ivy2/jars/org.scala-lang_scala-reflect-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-xml_2.11-1.0.5.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.0.4.jar,file:///root/.ivy2/jars/commons-io_commons-io-2.8.0.jar,file:///root/.ivy2/jars/org.glassfish.jaxb_txw2-2.3.3.jar,file:///root/.ivy2/jars/org.apache.ws.xmlschema_xmlschema-core-2.2.5.jar)\n(zeppelin.interpreter.localRepo,/zeppelin/local-repo/spark)\n(master,local[*])\n(zeppelin.pyspark.python,python)\n(zeppelin.spark.printREPLOutput,true)\n(zeppelin.spark.enableSupportedVersionCheck,true)\n(spark.app.id,local-1611670293954)\n(spark.executor.id,driver)\n(zeppelin.interpreter.output.limit,204800)\n(zeppelin.R.render.options,out.format \u003d \u0027html\u0027, comment \u003d NA, echo \u003d FALSE, results \u003d \u0027asis\u0027, message \u003d F, warning \u003d F, fig.retina \u003d 2)\n(zeppelin.R.image.width,100%)\n(zeppelin.spark.ui.hidden,false)\n(spark.driver.host,zeppelin)\n(zeppelin.spark.sql.stacktrace,false)\n(spark.app.name,Zeppelin)\n(zeppelin.dep.additionalRemoteRepository,spark-packages,http://dl.bintray.com/spark-packages/maven,false;)\n(zeppelin.spark.sql.interpolation,false)\n(zeppelin.interpreter.max.poolsize,10)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1611670681478_-627488479",
+      "id": "20210126-141801_302354421",
+      "dateCreated": "2021-01-26 14:18:01.478",
+      "dateStarted": "2021-01-26 14:19:14.593",
+      "dateFinished": "2021-01-26 14:19:15.067",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\nLoad File From Local File System",
+      "user": "anonymous",
+      "dateUpdated": "2021-01-26 14:19:41.775",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eLoad File From Local File System\u003c/p\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1611670703688_588486914",
+      "id": "20210126-141823_774896655",
+      "dateCreated": "2021-01-26 14:18:23.688",
+      "dateStarted": "2021-01-26 14:19:41.776",
+      "dateFinished": "2021-01-26 14:19:41.792",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n\nimport spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\n\n// File Locations on the docker image can we read using these path.\nval BaseFilePath \u003d \"file:///learn\"\nval TestInputCsv \u003d \"/test/input-test.csv/\"\nval InputFolder \u003d \"/inputs/\"\nval KoyfinSymbologyServiceInputFile \u003d \"koyfinSymbologyService.json\"\nval SingleInputFile \u003d \"performance_inc_20201009.xml\"\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-01-26 14:19:18.436",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\nBaseFilePath: String \u003d file:///learn\nTestInputCsv: String \u003d /test/input-test.csv/\nInputFolder: String \u003d /inputs/\nKoyfinSymbologyServiceInputFile: String \u003d koyfinSymbologyService.json\nSingleInputFile: String \u003d performance_inc_20201009.xml\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1611670714885_331091405",
+      "id": "20210126-141834_1767360755",
+      "dateCreated": "2021-01-26 14:18:34.886",
+      "dateStarted": "2021-01-26 14:19:18.463",
+      "dateFinished": "2021-01-26 14:19:20.064",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-01-26 14:19:18.438",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1611670758436_1200768438",
+      "id": "20210126-141918_1373929681",
+      "dateCreated": "2021-01-26 14:19:18.436",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Primer",
+  "id": "2FVXKGG2N",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {
+    "md:shared_process": [],
+    "spark:shared_process": []
+  },
+  "config": {
+    "isZeppelinNotebookCronEnable": false
+  },
+  "info": {}
+}

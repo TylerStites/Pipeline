@@ -1,0 +1,50 @@
+version: '3'
+services:
+  redis5:
+    image: redis:5.0.7
+    container_name: redis5
+    volumes:
+      - ${PWD}/data:/data
+    environment:
+      - REDIS_DATA_DIR=/data/
+    healthcheck:
+      interval: 5s
+      retries: 10
+    ports:
+      - 6379:6379
+    networks:
+      - koyfin
+    hostname: "redis5"
+  zeppelin:
+    image: apache/zeppelin:0.8.2
+    container_name: zeppelin
+    volumes:
+      - ${PWD}/notebook:/notebook
+      - ${PWD}/logs:/logs
+      - ${PWD}/data:/learn
+      - ${PWD}/spark-${SPARK_VERSION}:/spark
+    environment:
+      - SPARK_HOME=/spark
+      - SPARK_SUBMIT_OPTIONS=--packages org.elasticsearch:elasticsearch-hadoop:7.3.2,com.redislabs:spark-redis:2.4.1,com.databricks:spark-xml_2.11:0.11.0
+      - ZEPPELIN_LOG_DIR=/logs/
+      - ZEPPELIN_NOTEBOOK_DIR=/notebook
+      - ZEPPELIN_ADDR=0.0.0.0
+      - ZEPPELIN_SPARK_MAXRESULT=10000
+      - ZEPPELIN_INTERPRETER_OUTPUT_LIMIT=204800
+    healthcheck:
+      interval: 5s
+      retries: 10
+    ports:
+      - 8080:8080
+      - 4040:4040
+      - 4041:4041
+    depends_on:
+      - redis5
+    networks:
+      - koyfin
+    hostname: "zeppelin"
+
+networks:
+  koyfin:
+    external:
+      name: koyfin
