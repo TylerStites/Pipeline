@@ -3,7 +3,7 @@
     {
       "text": "%spark\nspark.sparkContext.getConf.getAll.foreach(println)",
       "user": "anonymous",
-      "dateUpdated": "2021-01-26 14:19:14.571",
+      "dateUpdated": "2021-05-08 21:08:09.135",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -21,28 +21,20 @@
         "params": {},
         "forms": {}
       },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "TEXT",
-            "data": "(zeppelin.spark.concurrentSQL,false)\n(spark.driver.extraJavaOptions, -Dfile.encoding\u003dUTF-8 -Dlog4j.configuration\u003dfile:///zeppelin/conf/log4j.properties -Dzeppelin.log.file\u003d/logs//zeppelin-interpreter-spark--zeppelin.log)\n(zeppelin.pyspark.useIPython,true)\n(spark.repl.class.uri,spark://zeppelin:40569/classes)\n(zeppelin.spark.maxResult,10000)\n(spark.redis.host,redis5)\n(spark.redis.port,6379)\n(zeppelin.R.cmd,R)\n(zeppelin.dep.localrepo,local-repo)\n(zeppelin.spark.importImplicit,true)\n(zeppelin.spark.useNew,true)\n(spark.cores.max,4)\n(spark.repl.class.outputDir,/tmp/spark347481049567855412)\n(spark.driver.extraClassPath,:/zeppelin/interpreter/spark/*:/zeppelin/lib/interpreter/*::/zeppelin/interpreter/spark/spark-interpreter-0.8.2.jar)\n(spark.jars,file:///root/.ivy2/jars/org.elasticsearch_elasticsearch-hadoop-7.3.2.jar,file:///root/.ivy2/jars/com.redislabs_spark-redis-2.4.1.jar,file:///root/.ivy2/jars/com.databricks_spark-xml_2.11-0.11.0.jar,file:///root/.ivy2/jars/org.apache.commons_commons-pool2-2.0.jar,file:///root/.ivy2/jars/redis.clients_jedis-3.2.0.jar,file:///root/.ivy2/jars/org.scala-lang_scalap-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang_scala-compiler-2.11.12.jar,file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.25.jar,file:///root/.ivy2/jars/org.scala-lang_scala-reflect-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-xml_2.11-1.0.5.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.0.4.jar,file:///root/.ivy2/jars/commons-io_commons-io-2.8.0.jar,file:///root/.ivy2/jars/org.glassfish.jaxb_txw2-2.3.3.jar,file:///root/.ivy2/jars/org.apache.ws.xmlschema_xmlschema-core-2.2.5.jar,file:/zeppelin/interpreter/spark/spark-interpreter-0.8.2.jar)\n(spark.yarn.dist.archives,file:/spark/R/lib/sparkr.zip#sparkr)\n(spark.useHiveContext,true)\n(spark.master,local[*])\n(spark.executor.memory,8g)\n(spark.submit.deployMode,client)\n(zeppelin.R.knitr,true)\n(spark.driver.port,40569)\n(zeppelin.spark.useHiveContext,true)\n(spark.repl.local.jars,file:///root/.ivy2/jars/org.elasticsearch_elasticsearch-hadoop-7.3.2.jar,file:///root/.ivy2/jars/com.redislabs_spark-redis-2.4.1.jar,file:///root/.ivy2/jars/com.databricks_spark-xml_2.11-0.11.0.jar,file:///root/.ivy2/jars/org.apache.commons_commons-pool2-2.0.jar,file:///root/.ivy2/jars/redis.clients_jedis-3.2.0.jar,file:///root/.ivy2/jars/org.scala-lang_scalap-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang_scala-compiler-2.11.12.jar,file:///root/.ivy2/jars/org.slf4j_slf4j-api-1.7.25.jar,file:///root/.ivy2/jars/org.scala-lang_scala-reflect-2.11.12.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-xml_2.11-1.0.5.jar,file:///root/.ivy2/jars/org.scala-lang.modules_scala-parser-combinators_2.11-1.0.4.jar,file:///root/.ivy2/jars/commons-io_commons-io-2.8.0.jar,file:///root/.ivy2/jars/org.glassfish.jaxb_txw2-2.3.3.jar,file:///root/.ivy2/jars/org.apache.ws.xmlschema_xmlschema-core-2.2.5.jar)\n(zeppelin.interpreter.localRepo,/zeppelin/local-repo/spark)\n(master,local[*])\n(zeppelin.pyspark.python,python)\n(zeppelin.spark.printREPLOutput,true)\n(zeppelin.spark.enableSupportedVersionCheck,true)\n(spark.app.id,local-1611670293954)\n(spark.executor.id,driver)\n(zeppelin.interpreter.output.limit,204800)\n(zeppelin.R.render.options,out.format \u003d \u0027html\u0027, comment \u003d NA, echo \u003d FALSE, results \u003d \u0027asis\u0027, message \u003d F, warning \u003d F, fig.retina \u003d 2)\n(zeppelin.R.image.width,100%)\n(zeppelin.spark.ui.hidden,false)\n(spark.driver.host,zeppelin)\n(zeppelin.spark.sql.stacktrace,false)\n(spark.app.name,Zeppelin)\n(zeppelin.dep.additionalRemoteRepository,spark-packages,http://dl.bintray.com/spark-packages/maven,false;)\n(zeppelin.spark.sql.interpolation,false)\n(zeppelin.interpreter.max.poolsize,10)\n"
-          }
-        ]
-      },
       "apps": [],
       "jobName": "paragraph_1611670681478_-627488479",
       "id": "20210126-141801_302354421",
       "dateCreated": "2021-01-26 14:18:01.478",
-      "dateStarted": "2021-01-26 14:19:14.593",
-      "dateFinished": "2021-01-26 14:19:15.067",
+      "dateStarted": "2021-05-08 21:08:09.178",
+      "dateFinished": "2021-05-08 21:08:12.303",
       "status": "FINISHED",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%md\nLoad File From Local File System",
       "user": "anonymous",
-      "dateUpdated": "2021-01-26 14:19:41.775",
+      "dateUpdated": "2021-05-05 00:32:46.279",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -62,28 +54,20 @@
         "params": {},
         "forms": {}
       },
-      "results": {
-        "code": "SUCCESS",
-        "msg": [
-          {
-            "type": "HTML",
-            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003cp\u003eLoad File From Local File System\u003c/p\u003e\n\u003c/div\u003e"
-          }
-        ]
-      },
       "apps": [],
       "jobName": "paragraph_1611670703688_588486914",
       "id": "20210126-141823_774896655",
       "dateCreated": "2021-01-26 14:18:23.688",
-      "dateStarted": "2021-01-26 14:19:41.776",
-      "dateFinished": "2021-01-26 14:19:41.792",
+      "dateStarted": "2021-05-05 00:32:46.280",
+      "dateFinished": "2021-05-05 00:32:48.684",
       "status": "FINISHED",
+      "errorMessage": "",
       "progressUpdateIntervalMs": 500
     },
     {
-      "text": "%spark\n\nimport spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\n\n// File Locations on the docker image can we read using these path.\nval BaseFilePath \u003d \"file:///learn\"\nval TestInputCsv \u003d \"/test/input-test.csv/\"\nval InputFolder \u003d \"/inputs/\"\nval KoyfinSymbologyServiceInputFile \u003d \"koyfinSymbologyService.json\"\nval SingleInputFile \u003d \"performance_inc_20201009.xml\"\n",
+      "text": "%spark\n\nimport spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\nimport org.apache.spark.sql.expressions.UserDefinedFunction\nimport org.apache.spark.sql.expressions.Window\n// import org.apache.spark.sql.functions.udf\n// import org.apache.spark.sql.functions.when",
       "user": "anonymous",
-      "dateUpdated": "2021-01-26 14:19:18.436",
+      "dateUpdated": "2021-05-10 01:21:49.016",
       "config": {
         "colWidth": 12.0,
         "fontSize": 9.0,
@@ -106,7 +90,7 @@
         "msg": [
           {
             "type": "TEXT",
-            "data": "import spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\nBaseFilePath: String \u003d file:///learn\nTestInputCsv: String \u003d /test/input-test.csv/\nInputFolder: String \u003d /inputs/\nKoyfinSymbologyServiceInputFile: String \u003d koyfinSymbologyService.json\nSingleInputFile: String \u003d performance_inc_20201009.xml\n"
+            "data": "import spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\nimport org.apache.spark.sql.expressions.UserDefinedFunction\nimport org.apache.spark.sql.expressions.Window\n"
           }
         ]
       },
@@ -114,24 +98,433 @@
       "jobName": "paragraph_1611670714885_331091405",
       "id": "20210126-141834_1767360755",
       "dateCreated": "2021-01-26 14:18:34.886",
-      "dateStarted": "2021-01-26 14:19:18.463",
-      "dateFinished": "2021-01-26 14:19:20.064",
+      "dateStarted": "2021-05-10 01:21:49.050",
+      "dateFinished": "2021-05-10 01:22:26.972",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n// File Locations on the docker image can we read using these path.\nval BaseFilePath \u003d \"file:///learn\"\nval InputFolder \u003d \"/inputs/\"\nval KoyfinSymbologyServiceInputFileKoyfinSymbologyServiceInputFile \u003d \"koyfinSymbologyService.json\"\nval feedFiles \u003d  \"/feed files/*\"\nval singleFeedFile \u003d \"/feed files/performance_inc_20191219.json\"\n\n// Elastic search config\nval esNodes \u003d \"172.18.0.4\"\nval esPort \u003d \"9200\"\nvar esconf \u003d Map(\"es.nodes\" -\u003e esNodes, \"spark.es.port\" -\u003e esPort)\n\n//Elastic search indices - improvemet create explicit mappings and not auto create with generic /docs\nval kUnAdjPriceIndex \u003d \"koyfin_unadjusted_price/docs\"\nval kAdjPriceIndex \u003d \"koyfin_adjusted_price/docs\"",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:23:25.212",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "BaseFilePath: String \u003d file:///learn\nInputFolder: String \u003d /inputs/\nKoyfinSymbologyServiceInputFileKoyfinSymbologyServiceInputFile: String \u003d koyfinSymbologyService.json\nfeedFiles: String \u003d /feed files/*\nsingleFeedFile: String \u003d /feed files/performance_inc_20191219.json\nesNodes: String \u003d 172.18.0.4\nesPort: String \u003d 9200\nesconf: scala.collection.immutable.Map[String,String] \u003d Map(es.nodes -\u003e 172.18.0.4, spark.es.port -\u003e 9200)\nkUnAdjPriceIndex: String \u003d koyfin_unadjusted_price/docs\nkAdjPriceIndex: String \u003d koyfin_adjusted_price/docs\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1620601913445_1627749750",
+      "id": "20210509-231153_1093447067",
+      "dateCreated": "2021-05-09 23:11:53.445",
+      "dateStarted": "2021-05-10 01:23:25.254",
+      "dateFinished": "2021-05-10 01:23:39.850",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\ncase class PData(adjustmentFactor: Double, assetId: Int, date: String, nav: Double)",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:37:37.841",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "defined class PData\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1620248305064_504250545",
+      "id": "20210505-205825_498778732",
+      "dateCreated": "2021-05-05 20:58:25.064",
+      "dateStarted": "2021-05-10 01:23:17.923",
+      "dateFinished": "2021-05-10 01:23:18.127",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n// Should use long and then handle the cents (add the decimal place). For purposes of displaying will store the value as a double.\n// Two quick ideas: 1. use big decimal  \u003d slow performance or 1. use your own fancy math \u003d fastest but needs the most testing or 3. use long type then fold (add decimal places). You can treat money as a number with no decimals.\n\n\n//UDFS\nval calculateAdjustedPrice \u003d udf((nav: Double, adjFactor: Double, maxAdjFactor: Double ) \u003d\u003e {(nav * adjFactor) / maxAdjFactor})",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:23:21.999",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "calculateAdjustedPrice: org.apache.spark.sql.expressions.UserDefinedFunction \u003d UserDefinedFunction(\u003cfunction3\u003e,DoubleType,Some(List(DoubleType, DoubleType, DoubleType)))\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1620226057592_1275044401",
+      "id": "20210505-144737_979428669",
+      "dateCreated": "2021-05-05 14:47:37.592",
+      "dateStarted": "2021-05-10 01:23:22.036",
+      "dateFinished": "2021-05-10 01:23:30.732",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\nval rawUnadjustedPriceDF \u003d spark.read.json(BaseFilePath + InputFolder + feedFiles)\n// rawUnadjustedPriceDF.show()",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:37:57.470",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- adjustmentFactor: string (nullable \u003d true)\n |-- assetId: long (nullable \u003d true)\n |-- date: string (nullable \u003d true)\n |-- nav: string (nullable \u003d true)\n\nrawUnadjustedPriceDF: org.apache.spark.sql.DataFrame \u003d [adjustmentFactor: string, assetId: bigint ... 2 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1611670758436_1200768438",
+      "id": "20210126-141918_1373929681",
+      "dateCreated": "2021-01-26 14:19:18.436",
+      "dateStarted": "2021-05-10 01:25:42.964",
+      "dateFinished": "2021-05-10 01:26:02.744",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n//Should focus on strongly typed data and managing nulls where present. Should also use the dataset api as much as possible.\n\nval unAdjustedPriceDF \u003d rawUnadjustedPriceDF.withColumn(\"adjustmentFactor\",col(\"adjustmentFactor\").cast(DoubleType))\n    .withColumn(\"assetId\",col(\"assetId\").cast(IntegerType))\n    .withColumn(\"nav\",col(\"nav\").cast(DoubleType))\n    .as[PData]\n                                              \n// unAdjustedPriceDF.printSchema()\n// unAdjustedPriceDF.show()\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:38:05.318",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- adjustmentFactor: double (nullable \u003d true)\n |-- assetId: integer (nullable \u003d true)\n |-- date: string (nullable \u003d true)\n |-- nav: double (nullable \u003d true)\n\n+----------------+-------+----------+-----+\n|adjustmentFactor|assetId|      date|  nav|\n+----------------+-------+----------+-----+\n|10.0449181987999|4000123|2019-12-27|18.46|\n|9.96288362069999|4000123|2019-12-20| 18.5|\n|   10.5929664087|4000123|2020-04-08|12.72|\n|            null|4000123|2019-12-23|18.67|\n|            null|4000123|2019-12-26|18.57|\n|            null|4000123|2019-12-30|18.41|\n|            null|4000123|2019-12-31|18.34|\n|            null|4000123|2020-01-02|18.77|\n|            null|4000123|2020-01-03|19.07|\n|            null|4000123|2020-01-06|19.16|\n|            null|4000123|2020-01-08|19.13|\n|            null|4000123|2020-01-09|19.32|\n|            null|4000123|2020-01-10|19.16|\n|            null|4000123|2020-01-13|19.34|\n|            null|4000123|2020-01-14|19.29|\n|            null|4000123|2020-01-15|19.38|\n|            null|4000123|2020-01-16|19.43|\n|            null|4000123|2020-01-17|19.34|\n|            null|4000123|2020-01-21|19.28|\n|            null|4000123|2020-01-22|19.15|\n+----------------+-------+----------+-----+\nonly showing top 20 rows\n\nunAdjustedPriceDF: org.apache.spark.sql.Dataset[PData] \u003d [adjustmentFactor: double, assetId: int ... 2 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1620224500451_-170958272",
+      "id": "20210505-142140_1408598716",
+      "dateCreated": "2021-05-05 14:21:40.451",
+      "dateStarted": "2021-05-10 01:30:26.384",
+      "dateFinished": "2021-05-10 01:30:37.465",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\nval kSymbolDF \u003d spark.read.option(\"multiline\", true).json(BaseFilePath + InputFolder + KoyfinSymbologyServiceInputFile)\nval kUnAdjDF \u003d unAdjustedPriceDF.join(kSymbolDF, kSymbolDF(\"acmeAssetID\") \u003d\u003d\u003d unAdjustedPriceDF(\"assetId\"), \"left\").drop(\"acmeAssetID\")\n\n// kUnAdjDF.show()",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:38:16.697",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+----------------+-------+----------+-----+-----------+---------+---------------+------+\n|adjustmentFactor|assetId|      date|  nav|       ISIN|      KID|qualifiedTicker|ticker|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+\n|10.0449181987999|4000123|2019-12-27|18.46|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|9.96288362069999|4000123|2019-12-20| 18.5|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|   10.5929664087|4000123|2020-04-08|12.72|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2019-12-23|18.67|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2019-12-26|18.57|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2019-12-30|18.41|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2019-12-31|18.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-02|18.77|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-03|19.07|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-06|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-08|19.13|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-09|19.32|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-10|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-13|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-14|19.29|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-15|19.38|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-16|19.43|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-17|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-21|19.28|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n|            null|4000123|2020-01-22|19.15|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+\nonly showing top 20 rows\n\nkSymbolDF: org.apache.spark.sql.DataFrame \u003d [ISIN: string, KID: string ... 3 more fields]\nkUnAdjDF: org.apache.spark.sql.DataFrame \u003d [adjustmentFactor: double, assetId: int ... 6 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1620610111297_975845017",
+      "id": "20210510-012831_1187862079",
+      "dateCreated": "2021-05-10 01:28:31.297",
+      "dateStarted": "2021-05-10 01:31:22.775",
+      "dateFinished": "2021-05-10 01:31:35.853",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n// write unadjusted price to elasticsearch\nkUnAdjDF.saveToEs(kUnAdjPriceIndex, esconf)",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:41:27.636",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1620610364880_611175614",
+      "id": "20210510-013244_1938787222",
+      "dateCreated": "2021-05-10 01:32:44.880",
+      "dateStarted": "2021-05-10 01:41:27.662",
+      "dateFinished": "2021-05-10 01:41:41.784",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n\n// Find adjFactory(max(t))\n\nval window \u003d Window.partitionBy(\"assetId\").orderBy(\"date\")\nval addMaxFactorDF \u003d kUnAdjDF.withColumn(\"maxAdjFactor\", max(\"adjustmentFactor\") over window)\n\n// Fill nulls \nval filledMaxFactorDF \u003d addMaxFactorDF.withColumn(\"adjustmentFactor\", when(col(\"adjustmentFactor\").isNull, col(\"maxAdjFactor\")).otherwise(col(\"maxAdjFactor\")))\n\n// would normally combine but want to show the steps.\nval adjPriceDF \u003d filledMaxFactorDF.withColumn(\"adjustedPrice\", calculateAdjustedPrice(col(\"nav\"), col(\"adjustmentFactor\"), col(\"maxAdjFactor\")))\n\n\n// addMaxFactorDF.show\n// filledMaxFactorDF.show\n// adjPriceDF.show\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:36:35.569",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+\n|adjustmentFactor|assetId|      date|  nav|       ISIN|      KID|qualifiedTicker|ticker|    maxAdjFactor|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+\n|9.96288362069999|4000123|2019-12-20| 18.5|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|            null|4000123|2019-12-23|18.67|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|            null|4000123|2019-12-24| 18.6|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|            null|4000123|2019-12-26|18.57|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|10.0449181987999|4000123|2019-12-27|18.46|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2019-12-30|18.41|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2019-12-31|18.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-02|18.77|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-03|19.07|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-06|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-07| 19.2|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-08|19.13|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-09|19.32|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-10|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-13|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-14|19.29|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-15|19.38|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-16|19.43|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-17|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|            null|4000123|2020-01-21|19.28|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+\nonly showing top 20 rows\n\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+\n|adjustmentFactor|assetId|      date|  nav|       ISIN|      KID|qualifiedTicker|ticker|    maxAdjFactor|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+\n|9.96288362069999|4000123|2019-12-20| 18.5|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|9.96288362069999|4000123|2019-12-23|18.67|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|9.96288362069999|4000123|2019-12-24| 18.6|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|9.96288362069999|4000123|2019-12-26|18.57|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|\n|10.0449181987999|4000123|2019-12-27|18.46|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2019-12-30|18.41|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2019-12-31|18.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-02|18.77|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-03|19.07|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-06|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-07| 19.2|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-08|19.13|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-09|19.32|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-10|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-13|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-14|19.29|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-15|19.38|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-16|19.43|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-17|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n|10.0449181987999|4000123|2020-01-21|19.28|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+\nonly showing top 20 rows\n\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+-------------+\n|adjustmentFactor|assetId|      date|  nav|       ISIN|      KID|qualifiedTicker|ticker|    maxAdjFactor|adjustedPrice|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+-------------+\n|9.96288362069999|4000123|2019-12-20| 18.5|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|         18.5|\n|9.96288362069999|4000123|2019-12-23|18.67|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|        18.67|\n|9.96288362069999|4000123|2019-12-24| 18.6|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|         18.6|\n|9.96288362069999|4000123|2019-12-26|18.57|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|9.96288362069999|        18.57|\n|10.0449181987999|4000123|2019-12-27|18.46|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        18.46|\n|10.0449181987999|4000123|2019-12-30|18.41|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        18.41|\n|10.0449181987999|4000123|2019-12-31|18.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        18.34|\n|10.0449181987999|4000123|2020-01-02|18.77|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        18.77|\n|10.0449181987999|4000123|2020-01-03|19.07|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.07|\n|10.0449181987999|4000123|2020-01-06|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.16|\n|10.0449181987999|4000123|2020-01-07| 19.2|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|         19.2|\n|10.0449181987999|4000123|2020-01-08|19.13|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.13|\n|10.0449181987999|4000123|2020-01-09|19.32|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.32|\n|10.0449181987999|4000123|2020-01-10|19.16|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.16|\n|10.0449181987999|4000123|2020-01-13|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.34|\n|10.0449181987999|4000123|2020-01-14|19.29|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.29|\n|10.0449181987999|4000123|2020-01-15|19.38|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.38|\n|10.0449181987999|4000123|2020-01-16|19.43|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.43|\n|10.0449181987999|4000123|2020-01-17|19.34|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.34|\n|10.0449181987999|4000123|2020-01-21|19.28|UA123456789|mf-5s7ebl|       LALDX:US| LALDX|10.0449181987999|        19.28|\n+----------------+-------+----------+-----+-----------+---------+---------------+------+----------------+-------------+\nonly showing top 20 rows\n\nwindow: org.apache.spark.sql.expressions.WindowSpec \u003d org.apache.spark.sql.expressions.WindowSpec@1bf757d7\naddMaxFactorDF: org.apache.spark.sql.DataFrame \u003d [adjustmentFactor: double, assetId: int ... 7 more fields]\nfilledMaxFactorDF: org.apache.spark.sql.DataFrame \u003d [adjustmentFactor: double, assetId: int ... 7 more fields]\nadjPriceDF: org.apache.spark.sql.DataFrame \u003d [adjustmentFactor: double, assetId: int ... 8 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1620603883322_-1152373157",
+      "id": "20210509-234443_1717825249",
+      "dateCreated": "2021-05-09 23:44:43.322",
+      "dateStarted": "2021-05-10 01:33:30.492",
+      "dateFinished": "2021-05-10 01:33:57.540",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n// write adjusted price to elasticsearch\nadjPriceDF.saveToEs(kAdjPriceIndex, esconf)",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:43:46.833",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1620610461193_-1451951852",
+      "id": "20210510-013421_222918057",
+      "dateCreated": "2021-05-10 01:34:21.193",
+      "dateStarted": "2021-05-10 01:43:46.867",
+      "dateFinished": "2021-05-10 01:44:07.789",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\n\n//Test write to Reddis. Could use if faster than querying elasticsearch. Just store the last adjusted factor or the whole dataframe.\nkUnAdjDF.write\n  .format(\"org.apache.spark.sql.redis\")\n  .option(\"table\", \"unadjustedprice\")\n  .save()\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:46:31.906",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1620509849772_-793530961",
+      "id": "20210508-213729_49523320",
+      "dateCreated": "2021-05-08 21:37:29.772",
+      "dateStarted": "2021-05-10 01:46:31.935",
+      "dateFinished": "2021-05-10 01:46:44.693",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%spark\nadjPriceDF.write\n  .format(\"org.apache.spark.sql.redis\")\n  .option(\"table\", \"adjustedprice\")\n  .save()",
+      "user": "anonymous",
+      "dateUpdated": "2021-05-10 01:46:35.071",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "jobName": "paragraph_1620611141575_1381003450",
+      "id": "20210510-014541_712835799",
+      "dateCreated": "2021-05-10 01:45:41.575",
+      "dateStarted": "2021-05-10 01:46:35.111",
+      "dateFinished": "2021-05-10 01:47:00.703",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "text": "%spark\n",
       "user": "anonymous",
-      "dateUpdated": "2021-01-26 14:19:18.438",
+      "dateUpdated": "2021-05-10 01:46:35.073",
       "config": {},
       "settings": {
         "params": {},
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1611670758436_1200768438",
-      "id": "20210126-141918_1373929681",
-      "dateCreated": "2021-01-26 14:19:18.436",
+      "jobName": "paragraph_1620611195072_-766062051",
+      "id": "20210510-014635_1538655791",
+      "dateCreated": "2021-05-10 01:46:35.072",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
@@ -142,6 +535,7 @@
   "noteForms": {},
   "angularObjects": {
     "md:shared_process": [],
+    "sh:shared_process": [],
     "spark:shared_process": []
   },
   "config": {
